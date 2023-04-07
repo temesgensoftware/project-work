@@ -21,14 +21,17 @@ int main(){
     }
     cout<<endl;
   }
-  for(int i=0;i<(n-1);i++){
-    for(int k=(n-2)-i;k>0;k--){
+  for(int i=0;i<(n-1);i++)
+  {
+    for(int k=(n-2)-i;k>0;k--)
+    {
       cout<<"  ";
     }
     for(int j=i+1;j>=0;j--){
       cout<<char(j+65)<<" ";
     }
-    for(int m=1;m<=i+1;m++){
+    for(int m=1;m<=i+1;m++)
+    {
       cout<<char(m+65)<<" ";
     }
     cout<<endl;
