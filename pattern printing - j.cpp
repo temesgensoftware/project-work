@@ -20,6 +20,7 @@ int main(){
       cout<<char(m+65);
     }
     cout<<endl;
+	  
     if(i==n-1){
 
     for(int k=0;k<n;k++){
@@ -27,7 +28,7 @@ int main(){
     }
     for(int k=n+1;k>=0;k--){
     	if(k==(n)){
-			continue;
+		continue;
 		}
       cout<<char(k+65);
     }
